@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="장예솔 - 프로필 링크">
+    <meta property="og:description" content="프론트엔드 개발 공부중">
+    <meta property="og:image" content="cat.jpg">
+    <title>장예솔 - 프로필 링크</title>
+
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+        *{
+            background-color: rgb(255, 239, 213);
+            font-family: "Pretendard",serif;
+        }
+
+        .profile{
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            border: 2px solid rgb(40, 40, 40);
+            background-image: url('cat.jpg');
+            background-position: 3px center;
+            background-size: cover;
+        }
+
+        .main{
+            color: rgb(40, 40, 40);
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        .sub{
+            color: rgb(40, 40, 40);
+            font-size: 14px;
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+
+        .wrap{
+            width: 300px;
+            margin: 30px auto 0px auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrap>a{
+            width: 300px;
+            height: 50px;
+            background-color: white;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            color: rgb(40, 40, 40);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 3px 3px 3px 0px rgba(40, 40, 40, 0.377);
+            transition: all 0.3s;
+        }
+
+        .wrap>a:hover{
+            background-color: #f2f2f2;
+            font-size: 16px;
+            transition: all 0.3s;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">장예솔</h1>
+        <p class="sub">프론트엔드 개발 공부중</p>
+        <a target="_blank" href="https://www.instagram.com/ye5_0r_n0/">인스타그램</a>
+        <a target="_blank" href="https://velog.io/@yesall99_">벨로그</a>
+    </div>
+</body>
+</html>
